@@ -4,6 +4,8 @@ A small Python pipeline for differential gene expression in bulk RNA-seq data. I
 
 When you don't pass data in, it simulates a two-condition experiment with negative-binomial counts and known ground truth. That way the calls can be scored for precision and recall instead of only being looked at.
 
+New to this? Read [EXPLAINED.md](EXPLAINED.md) for a plain-language walkthrough of what this does and what we learned.
+
 | Volcano | MA | PCA |
 |---|---|---|
 | ![volcano](figures/volcano.png) | ![ma](figures/ma_plot.png) | ![pca](figures/pca.png) |
